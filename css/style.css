@@ -1,0 +1,53 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+
+/* common css start */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Teko", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    min-height: 100vh;
+    background: #F6F5F2;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+ 
+
+/* css start */
+.counter {
+    width: 150px;
+    height: 150px;
+    background: #FA7070;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 4px 21px 135px -7px rgba(0, 0, 0, 0.63);
+}
+.counter-text{
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 400;
+    transition: transform 0.3s ease;
+    text-shadow: 0px 0px 55px rgba(0, 0, 0, 0.78);
+}
+.counter-text:hover{
+    transform: scale(1.1);
+}
